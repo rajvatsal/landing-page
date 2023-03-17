@@ -217,3 +217,40 @@ a{
     color: #1F2937;
     font-weight: bold;
 }
+
+/********************************************Section-4********************************************************/
+
+.section-4{ 
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    padding: 25px 60px;
+    border-radius: 5px;
+    gap: 15px;
+    width: 550px;
+}
+
+.section-4 .heading{
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.section-4 .subtext{
+    color: #F9FAF8;
+}
+
+.section-4 button{
+    border-radius: 5px;
+    border-width: 2px;
+    background-color: #3882F6;
+    border-style: solid;
+    border-color: #F9FAF8;
+    width: 100px;
+    height: 30px;
+    align-self: center;
+}
+
+.section-4 .container{
+    flex-shrink: 0;
+}
