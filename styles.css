@@ -100,7 +100,7 @@ body{
     font-family: "Fira Sans";
 }
 header{
-    padding: 20px 100px 60px;
+    padding: 20px 100px 90px;
     background-color: #1F2937;
 }
 
@@ -136,7 +136,7 @@ ul{
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 800;
-    width: 300px;
+    width: 350px;
     margin: 0px;
     margin-top: 20px;
 }
@@ -162,3 +162,34 @@ a{
 }
 
 /*******************************************Section-2*******************************************************/
+
+.section-2{
+    padding: 50px 100px;
+}
+
+.section-2 h1{
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.img-txt-grp{
+    gap: 10px;
+    display: flex;
+}
+
+.section-2 img{
+    width: 270px;
+}
+
+.section-2 .img-txt-grp .txt{
+    text-align: center;
+}
+
+.section-2 .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
