@@ -254,3 +254,12 @@ a{
 .section-4 .container{
     flex-shrink: 0;
 }
+
+/******************************************Section-5*********************************************************/
+
+.section-5{
+    text-align: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 47px 100px;
+}
