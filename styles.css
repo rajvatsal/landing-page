@@ -100,7 +100,7 @@ body{
     font-family: "Fira Sans";
 }
 header{
-    padding: 20px 100px 90px;
+    padding: 20px 120px 90px;
     background-color: #1F2937;
 }
 
@@ -115,10 +115,11 @@ header{
     width: 600px;
 }
 
-ul{
+ ul{
     display: flex;
     list-style-type: none;
     gap: 10px;
+    font-weight: light;
 }
 
 .section-1 .container div{
@@ -127,29 +128,28 @@ ul{
     font-weight: bold;
 }
 
-.heading{
+.section-1 .heading{
     display: flex;
     align-items: flex-start;
 }
 
-.heading h1{
+.section-1 .heading h1{
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 800;
     width: 350px;
     margin: 0px;
-    margin-top: 20px;
 }
 
-.heading .txt{
+.section-1 .heading .txt{
     color: #E5E7EB;
     font-size: 18px;
+    width: 400px;
 }
 
 a{
     text-decoration: none;
     color: #E5E7EB;
-    font-weight: bold;
 }
 
 .section-1 button{
@@ -159,6 +159,9 @@ a{
     border-style: none;
     padding: 7px 30px;
     margin-top: 15px;
+}
+.section-1 .content{
+    flex: 1;
 }
 
 /*******************************************Section-2*******************************************************/
@@ -238,21 +241,19 @@ a{
 
 .section-4 .subtext{
     color: #F9FAF8;
+    width: 460px;
 }
 
 .section-4 button{
     border-radius: 5px;
+    flex-shrink: 0;
     border-width: 2px;
     background-color: #3882F6;
     border-style: solid;
     border-color: #F9FAF8;
     width: 100px;
     height: 30px;
-    align-self: center;
-}
-
-.section-4 .container{
-    flex-shrink: 0;
+    align-self: flex-end;
 }
 
 /******************************************Section-5*********************************************************/
