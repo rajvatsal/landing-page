@@ -159,6 +159,7 @@ a{
     border-style: none;
     padding: 7px 30px;
     margin-top: 15px;
+    font-weight: bold;
 }
 .section-1 .content{
     flex: 1;
@@ -254,6 +255,7 @@ a{
     width: 100px;
     height: 30px;
     align-self: flex-end;
+    font-weight: bold;
 }
 
 /******************************************Section-5*********************************************************/
